@@ -50,6 +50,23 @@ section{
     background-position: center;
     background-attachment: fixed;
 }
+.img{
+    justify-content:space-between ;
+    padding: 30px;
+    padding-left: 70px;
+}
+.img .profile-img{
+    width: 250px;
+    height: 250px;
+    border: 10px;
+    border: 3px solid #fff8dc ;
+    outline: 3px solid #fff8dc;
+    outline-offset: 2px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* box-shadow: 0 4px 20px rgba(255, 255, 255, 0.5); */
+
+}
 .main h2{
     color: #e6f0ff;
     font-size: 1.4em;
@@ -197,6 +214,19 @@ section{
 }
 .more-details:hover{
     color:#3ea6ff ;
+}
+.contact .more-info{
+    display: flex;
+    justify-content: space-between;
+
+}
+.contact a{
+    text-decoration: none;
+    
+}
+.more-info span{
+    color: #1e90ff;
+    font-weight: bold;
 }
 .footer{
     background-color: #0056ff;
